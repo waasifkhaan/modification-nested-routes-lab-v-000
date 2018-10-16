@@ -48,7 +48,7 @@ class SongsController < ApplicationController
     else
       redirect_to artists_path , alert: "Artist no found"
     end
-    
+
   end
 
   def update
